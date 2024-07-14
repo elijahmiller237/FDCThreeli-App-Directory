@@ -1,14 +1,14 @@
 # Site
-name: "FDC3"
-title: "FINOS FDC3 App Directory"
-description: "Showcase for FINOS FDC3 Apps" 
-logo: 'images/r1_logo_round_black.png'
+name: "FDCThreeli"
+title: "Eli's FDC3 App Directory"
+description: "Showcase for Eli's FDC3 Apps"
+logo: "images/r1_logo_round_black.png"
 favicon: favicon.ico
 page_lang: en-GB
-image: tbc  # twitter image
- 
+image: tbc # twitter image
+
 baseurl: / #FDC3-App-Directory
-github: https://github.com/robmoffat/FDC3-App-Directory
+github: https://github.com/elijahmiller237/FDCThreeli-App-Directory
 
 collections:
   apps:
@@ -16,8 +16,7 @@ collections:
     permalink: /v2/apps/:name/index.json
   data:
     output: true
-    
-    
+
 defaults:
   - scope:
       path: ""
